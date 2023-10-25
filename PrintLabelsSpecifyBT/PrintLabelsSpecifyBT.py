@@ -28,7 +28,7 @@ my_observer.schedule(my_event_handler, path_file_from_specify, recursive=go_recu
 my_observer.start()
 try:
     while True:
-        time.sleep(1)
+        time.sleep(30)
 except KeyboardInterrupt:
     my_observer.sleep()
     my_observer.join()
